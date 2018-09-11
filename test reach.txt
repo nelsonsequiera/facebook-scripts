@@ -1,0 +1,720 @@
+curl -X POST \
+  https://alchemy-marketing-execution-qa.gale.agency/campaign/ \
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: 8201c821-3963-41f7-babb-33a5583c7234' \
+  -d '{
+    "id": "aa663ec9-5584-4570-9e3c-26b846e73c0a",
+    "name": "nelson facebook reach objective",
+    "objective": "awareness",
+    "initiative_id": null,
+    "initiative": null,
+    "budget": 20000,
+    "schedule":
+    {
+        "start": "2018-07-19",
+        "end": "2018-08-03"
+    },
+    "segment": [
+    {
+        "id": "f73fdcaa-0572-418b-b9b4-12f920d5dff9",
+        "target_list":
+        {
+            "id": "aa8510d6-a094-4133-84b9-48169b73efbf",
+            "name": "GALE",
+            "attributes":
+            {
+                "gender": [],
+                "interests": [],
+                "age_groups": []
+            },
+            "alchemy_core_list_id": "5d8d149f-ea25-4ebc-a362-b3f6b1f08aed",
+            "data":
+            {
+                "size": 78
+            },
+            "inclusions_list": [
+            {
+                "id": "3aeaad0e-20ae-4967-b14f-481a2d71f466",
+                "name": "All",
+                "alchemy_core_list_id": "e1172b4b-173b-4c53-8c1e-0d50ec1f613f",
+                "data":
+                {
+                    "age_groups": ["18 - 24", "25 - 34", "35 - 44", "45 - 54", "55 - 64", "65 - 100"]
+                },
+                "type": "FIRST_PARTY"
+            }],
+            "exclusions_list": [],
+            "mediaplans": [
+            {
+                "id": "383c270f-9de6-42bb-9419-df1d433e3118",
+                "name": "Test One",
+                "schedule":
+                {
+                    "start": "2018-06-30T12:00:00Z",
+                    "end": "2018-07-11T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "18d49ef2-aea8-4d8a-9304-3e9d3b539428",
+                "name": "ABCD",
+                "schedule":
+                {
+                    "start": "2018-06-14T00:00:00Z",
+                    "end": "2018-06-21T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "dc0e969a-7ae2-4a0f-aa98-689a13dd69cf",
+                "name": "Test Media plan 21",
+                "schedule":
+                {
+                    "start": "2018-06-27T00:00:00Z",
+                    "end": "2018-06-30T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "65f13adc-8de3-4e0b-bba9-cc77a2264093",
+                "name": "Video 20",
+                "schedule":
+                {
+                    "start": "2018-06-25T12:00:00Z",
+                    "end": "2018-06-30T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "c9f8659b-3824-4115-a1c7-cef0626d9a2b",
+                "name": "nelson facebook test-10th-july",
+                "schedule":
+                {
+                    "start": "2018-07-11T00:00:00Z",
+                    "end": "2018-07-26T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "32d83a42-5ab1-4dce-9168-99ed375e028d",
+                "name": "AppNexus Display Ad",
+                "schedule":
+                {
+                    "start": "2018-06-26T00:00:00Z",
+                    "end": "2018-09-29T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "fe9eff70-4c97-4890-a577-a602e39db0cb",
+                "name": "nelson location 2",
+                "schedule":
+                {
+                    "start": "2018-05-26T12:00:00Z",
+                    "end": "2018-05-28T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "a80dd1e3-9a67-42f3-9824-50fc9c56ed49",
+                "name": "Search - negative test",
+                "schedule":
+                {
+                    "start": "2018-07-03T12:00:00Z",
+                    "end": "2018-08-04T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "23f9ec39-8cf0-45c0-bd90-2d97e9130504",
+                "name": "Test-media-plan-9",
+                "schedule":
+                {
+                    "start": "2018-07-25T12:00:00Z",
+                    "end": "2018-07-30T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "25f4a478-0175-4076-93f1-4bab8e5620d8",
+                "name": "16 July",
+                "schedule":
+                {
+                    "start": "2018-07-20T00:00:00Z",
+                    "end": "2018-07-25T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "a3ff33bc-5544-4afa-b673-29614806ef9b",
+                "name": "Display 20",
+                "schedule":
+                {
+                    "start": "2018-06-30T12:00:00Z",
+                    "end": "2018-07-05T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "224165de-cbb7-4148-9594-651313ce914e",
+                "name": "Clone of - Search MP",
+                "schedule":
+                {
+                    "start": "2018-07-10T00:00:00Z",
+                    "end": "2018-07-20T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "b1f3cbc3-ce80-436f-8fde-4533e41e1176",
+                "name": "nelson adwords search",
+                "schedule":
+                {
+                    "start": "2018-06-25T12:00:00Z",
+                    "end": "2018-06-29T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "6182c404-96a9-4b59-b44f-fae09b6e4bba",
+                "name": "Clone of - Clone of - Live mediaplan testing",
+                "schedule":
+                {
+                    "start": "2018-07-03T12:00:00Z",
+                    "end": "2018-07-11T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "a01eaf5b-d922-4537-b496-88e042191abd",
+                "name": "ZeroOne Promotions",
+                "schedule":
+                {
+                    "start": "2018-07-06T00:00:00Z",
+                    "end": "2018-07-20T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "3993ac97-d154-4b0e-b974-577276bd641e",
+                "name": "Todays MP",
+                "schedule":
+                {
+                    "start": "2018-06-29T00:00:00Z",
+                    "end": "2018-06-30T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "1a954c95-a8b0-4fca-a6a9-46a7533820cd",
+                "name": "nelson facebook test",
+                "schedule":
+                {
+                    "start": "2018-07-11T12:00:00Z",
+                    "end": "2018-07-26T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "6428ba92-7758-4037-a5eb-57518f620d56",
+                "name": "Blotter test",
+                "schedule":
+                {
+                    "start": "2018-08-01T00:00:00Z",
+                    "end": "2018-08-31T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "8b5ee80c-0454-4b00-8937-a0ebe506ab08",
+                "name": "Some Media Plan",
+                "schedule":
+                {
+                    "start": "2018-06-25T12:00:00Z",
+                    "end": "2018-06-30T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "5fceb732-6f43-4eac-a7c3-0513af3daeb4",
+                "name": "nelson - test location",
+                "schedule":
+                {
+                    "start": "2018-06-09T00:00:00Z",
+                    "end": "2018-06-13T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "30a0272e-f251-46fc-a452-21dab3192d43",
+                "name": "Clone of - Live mediaplan testing",
+                "schedule":
+                {
+                    "start": "2018-07-03T12:00:00Z",
+                    "end": "2018-07-11T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "4247b85a-978a-4688-8fa5-8f57b4b000e1",
+                "name": "Nachos vs Fries",
+                "schedule":
+                {
+                    "start": "2018-05-25T00:00:00Z",
+                    "end": "2018-09-19T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "cb48eb56-6a8e-47eb-88d8-8bedcd6ed0a8",
+                "name": "Awesome MP",
+                "schedule":
+                {
+                    "start": "2018-06-30T00:00:00Z",
+                    "end": "2018-07-05T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "aa663ec9-5584-4570-9e3c-26b846e73c0a",
+                "name": "nelson facebook reach objective",
+                "schedule":
+                {
+                    "start": "2018-07-19T12:00:00Z",
+                    "end": "2018-08-03T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "0b8e6baf-c180-4818-bb46-6443dd2b0777",
+                "name": "name",
+                "schedule":
+                {
+                    "start": "2018-07-12T12:00:00Z",
+                    "end": "2018-07-14T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "b075d2f1-ce2f-468d-b542-213972a7c828",
+                "name": "Live mediaplan testing",
+                "schedule":
+                {
+                    "start": "2018-07-03T12:00:00Z",
+                    "end": "2018-07-11T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "6dfffcae-e6d0-4f54-b5a3-8f2e84061683",
+                "name": "ss test 2 - media plan",
+                "schedule":
+                {
+                    "start": "2018-05-17T00:00:00Z",
+                    "end": "2018-05-23T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "c147d048-fe0b-499f-90eb-16e72f4e9399",
+                "name": "28 June - media plan 1",
+                "schedule":
+                {
+                    "start": "2018-07-10T00:00:00Z",
+                    "end": "2018-07-31T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "ef24fdfd-df8b-4c6a-b94b-f7acfd7c5eb7",
+                "name": "test-1st-july-3",
+                "schedule":
+                {
+                    "start": "2018-07-10T12:00:00Z",
+                    "end": "2018-07-31T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "6919f536-3e33-498e-88d2-a184019f2b3f",
+                "name": "Clone of - nelson facebook test-10th-july",
+                "schedule":
+                {
+                    "start": "2018-07-11T00:00:00Z",
+                    "end": "2018-07-26T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "b91118aa-dbf6-47dc-83ea-3ccb59180040",
+                "name": "nelson test",
+                "schedule":
+                {
+                    "start": "2018-07-03T12:00:00Z",
+                    "end": "2018-07-27T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "3c4da8e5-b65f-4e04-ad0e-184cc0992f1f",
+                "name": "Test MP - 1234",
+                "schedule":
+                {
+                    "start": "2018-07-19T00:00:00Z",
+                    "end": "2018-07-27T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "824dac4e-65a8-4a13-a870-fb80b580b496",
+                "name": "nelson dam check",
+                "schedule":
+                {
+                    "start": "2018-06-21T00:00:00Z",
+                    "end": "2018-06-30T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "a14c78b8-1204-4fde-8e86-04e1c2a471c4",
+                "name": "nelson location interest",
+                "schedule":
+                {
+                    "start": "2018-06-20T12:00:00Z",
+                    "end": "2018-06-30T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "098c6ebc-da23-460d-b95e-20eb8d8bb0fd",
+                "name": "Clone of - Clone of - Clone of - Live mediaplan testing",
+                "schedule":
+                {
+                    "start": "2018-07-03T12:00:00Z",
+                    "end": "2018-07-11T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "4d755d8e-1308-4861-8121-4683f37c9fcf",
+                "name": "Search MP",
+                "schedule":
+                {
+                    "start": "2018-06-29T00:00:00Z",
+                    "end": "2018-06-30T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "560681a2-2928-4aae-b38f-80e728cfc9e8",
+                "name": "Demo - 12 June - media plan2",
+                "schedule":
+                {
+                    "start": "2018-06-30T12:00:00Z",
+                    "end": "2018-08-17T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "760e60d8-bb38-4b98-b9f4-ce39087fa311",
+                "name": "July 10th MP - Harish",
+                "schedule":
+                {
+                    "start": "2018-07-13T00:00:00Z",
+                    "end": "2018-07-23T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "3408ba53-c998-4c48-82ba-64faf76188a4",
+                "name": "28 June - media plan",
+                "schedule":
+                {
+                    "start": "2018-06-30T00:00:00Z",
+                    "end": "2018-07-05T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "f48a8668-c1ea-4b76-ac47-a55cf8e8f204",
+                "name": "Arun - 25th June",
+                "schedule":
+                {
+                    "start": "2018-06-25T12:00:00Z",
+                    "end": "2018-06-30T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "5d7179ec-eca5-46fa-b5aa-64bbcbe7688f",
+                "name": "1st-July-1",
+                "schedule":
+                {
+                    "start": "2018-07-10T12:00:00Z",
+                    "end": "2018-07-24T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "5ffb391d-ed5f-4a47-8b50-0916aa2ee5a9",
+                "name": "Media Plan",
+                "schedule":
+                {
+                    "start": "2018-06-20T12:00:00Z",
+                    "end": "2018-06-30T12:00:01Z",
+                    "timezone": "UTC"
+                }
+            },
+            {
+                "id": "b5045934-a993-4089-aaa1-e0d2178e4f05",
+                "name": "Mevin Test initiative - media plan",
+                "schedule":
+                {
+                    "start": "2018-07-11T00:00:00Z",
+                    "end": "2018-08-04T00:00:01Z",
+                    "timezone": "UTC"
+                }
+            }]
+        },
+        "caption": "test offer",
+        "offer":
+        {
+            "id": "2c2032d2-81c2-4b40-8e59-ad6843fac802",
+            "name": "Dynamite summer sales",
+            "offer_template_id": "b377a52c-302f-463f-980d-b7a7a9c4e285",
+            "initiative": "2081e771-5d0a-433c-b144-bed34fd0a04a",
+            "initiative_name": "Initiative 1",
+            "attributes":
+            {
+                "X": "10",
+                "tnc": "Terms & conditions",
+                "limit": "100",
+                "amount": "100",
+                "product": "Spa",
+                "currency": "dollar sign",
+                "schedule":
+                {
+                    "end": "2018-06-20T00:00:00.000Z",
+                    "start": "2018-06-07T00:00:00.000Z"
+                },
+                "couponCode": "GALE410"
+            },
+            "prerequisite_ids": ["a09618b1-dfc2-40d9-a7f2-84cfa397a559"]
+        }
+    }],
+    "last_state": "APPROVED",
+    "action": "create",
+    "status": "start",
+    "account": "Demo client account - 1",
+    "channel_mix": [
+    {
+        "id": "75eac5b4-3680-4709-9c52-13f10b3158a2",
+        "mediaplan_id": "aa663ec9-5584-4570-9e3c-26b846e73c0a",
+        "channel": "social",
+        "budget_allocated": 100.0,
+        "media_kpis": [
+        {
+            "id": "6d4f7ad9-f007-4167-bdc3-328008020272",
+            "name": "Impressions",
+            "variables": ["3"]
+        }]
+    }],
+    "auto_propagate_audience_updates": false,
+    "client":
+    {
+        "name": "Democlientaccount-1",
+        "site": ["https://alchemy-hotel.gale.agency/"]
+    },
+    "external_id": "MED0214",
+    "is_favorite": false,
+    "all_required_fields_completed": true,
+    "system_error": false,
+    "report": null,
+    "is_complete": true,
+    "campaign": [
+    {
+        "id": "d34615cd-370b-4387-ab39-377b80506a77",
+        "external_id": "CAM0369",
+        "mediaplan_id": "aa663ec9-5584-4570-9e3c-26b846e73c0a",
+        "name": "nelson facebook reach campaign",
+        "budget": 10000,
+        "schedule":
+        {
+            "start": "2018-07-19",
+            "end": "2018-08-01"
+        },
+        "channels": ["social"],
+        "is_favorite": false,
+        "last_state": "APPROVED",
+        "action": "create",
+        "status": "start",
+        "system_error": false,
+        "all_required_fields_completed": true,
+        "report": null,
+        "platforms":
+        {
+            "common":
+            {
+                "id": "77ee5a13-7744-47e4-b070-9c8e3edd6bbf",
+                "external_id": "PLA0998",
+                "parent_id": "d34615cd-370b-4387-ab39-377b80506a77",
+                "name": "common",
+                "frequency_cap":
+                {
+                    "impressions": "23",
+                    "period": "DAY"
+                },
+                "budget": 0,
+                "action": "no_change",
+                "status": "start"
+            },
+            "facebook":
+            {
+                "id": "4b13eec1-3fb2-4395-b63b-c9dc4d8402a2",
+                "external_id": "PLA0999",
+                "objective": "reach",
+                "parent_id": "d34615cd-370b-4387-ab39-377b80506a77",
+                "name": "facebook",
+                "budget": 10000,
+                "cost_per_customer": "4.180",
+                "target_audience": 2392,
+                "bid_strategy": "IMPRESSIONS",
+                "fb_pixel": "217049922179026",
+                "bid_cap": 20.0,
+                "delivery_type": "standard",
+                "frequency_cap":
+                {
+                    "impressions": "23",
+                    "period": "DAY"
+                },
+                "last_state": "APPROVED",
+                "location": [
+                {
+                    "key": "1036165",
+                    "name": "Mysore",
+                    "type": "city",
+                    "include": true,
+                    "country_code": "IN",
+                    "country_name": "India",
+                    "search_query": "myso",
+                    "updated_time": "2018-06-20T09:28:41.203611",
+                    "canonical_name": "Mysore, India"
+                }],
+                "extensions": [],
+                "action": "create",
+                "status": "start"
+            }
+        },
+        "adset": [
+        {
+            "id": "059d2634-efc0-4960-8f44-1583c8b5165f",
+            "external_id": "ADS0171",
+            "campaign_id": "d34615cd-370b-4387-ab39-377b80506a77",
+            "name": "nelson facebook reach adset",
+            "mediaplan_objective": "Awareness",
+            "budget": 10000,
+            "schedule":
+            {
+                "start": "2018-07-20",
+                "end": "2018-08-01"
+            },
+            "audience":
+            {
+                "id": "d876e4cc-3ec6-4c7a-a0e1-52ab1772556a",
+                "target_list_name": "Gale - FM",
+                "open": true,
+                "targeted": true,
+                "attributes":
+                {
+                    "gender": [],
+                    "income": [],
+                    "geography": [],
+                    "age_groups": [],
+                    "interests": []
+                },
+                "audience_id": "32c077cf-2cff-488f-a179-aa485e38bd1b"
+            },
+            "offer": "Get 10% off on Spa",
+            "caption": "test offer",
+            "is_favorite": false,
+            "last_state": "APPROVED",
+            "all_required_fields_completed": true,
+            "system_error": false,
+            "action": "create",
+            "status": "start",
+            "report": null,
+            "ad": [
+            {
+                "id": "b16becab-0e69-499b-aca7-736084c55400",
+                "external_id": "AD-0155",
+                "adset_id": "059d2634-efc0-4960-8f44-1583c8b5165f",
+                "name": "nelson facebook reach ad",
+                "is_favorite": false,
+                "last_state": "APPROVED",
+                "all_required_fields_completed": false,
+                "system_error": false,
+                "action": "create",
+                "status": "start",
+                "audit": null,
+                "report": null,
+                "platforms":
+                {
+                    "facebook":
+                    {
+                        "template": [
+                        {
+                            "id": "3223498e-04c9-4cf6-b5a8-7a4bf431ba0a",
+                            "ad_id": "b16becab-0e69-499b-aca7-736084c55400",
+                            "name": "nelson facebook reach ad-template",
+                            "headline": "this is a healdine",
+                            "sub_headline": "this is a subheadline",
+                            "description": "this is a descriptio",
+                            "url": "https://alchemy-hotel.gale.agency/",
+                            "asset_url": "https://alchemy-marketing-execution-dam-dev.gale.agency/assets/mediadb/services/module/asset/downloads/originals/2018/07/55/577b566d3/ba9d44d7-b30a-4de4-8733-c63f04e33c34.png",
+                            "asset_ids": ["nelson_facebook_reach_adset300x250"],
+                            "call_to_action": "APPLY_NOW",
+                            "last_state": "APPROVED",
+                            "ad_format": "RESPONSIVE"
+                        }],
+                        "action": "create",
+                        "status": "start"
+                    }
+                }
+            }],
+            "platforms":
+            {
+                "facebook":
+                {
+                    "id": "40a7fe12-5f6e-46a2-a2ce-b7a1b3290522",
+                    "external_id": "PLA1000",
+                    "parent_id": "059d2634-efc0-4960-8f44-1583c8b5165f",
+                    "name": "facebook",
+                    "budget": 10000,
+                    "interests": [
+                    {
+                        "key": "6003020834693",
+                        "value": "Interests >> Entertainment >> Music"
+                    }],
+                    "ad_rotation": "Standard",
+                    "ad_format": "RESPONSIVE",
+                    "last_state": "APPROVED",
+                    "placement": ["fb_feed"],
+                    "ad_size": ["300x250"],
+                    "pixel_event": "CONTENT_VIEW",
+                    "action": "create",
+                    "status": "start",
+                    "frequency_period": 3,
+                    "frequency_control_specs_event": "IMPRESSIONS",
+                    "billing_event": "IMPRESSIONS",
+                    "is_average_price_pacing": false
+                }
+            },
+            "is_complete": true
+        }],
+        "is_complete": true
+    }],
+    "configuration_profile_id": "2516ba4c-3bbd-4ae4-9f98-2b4be5e525f4",
+    "configuration_profile_updation_time": "2018-07-11T06:32:46",
+    "request_id": 123
+}'

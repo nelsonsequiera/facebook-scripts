@@ -1,0 +1,29 @@
+Help in Facebook Rate limit problem
+
+Hi 
+
+Im trying to create ads in facebook using python sdk. (15000 ads to be exact)
+
+Im hiting rate limit after I create 10 ads (i.e 10 create-ad requests)
+
+I tried putting delay between each request. (1 second delay)
+
+The error im getting is: message': 'Calls to this api have exceeded the rate limit.', 'code': 613, 'error_subcode': 1487742
+
+I have 1 adaccount, 4 system users
+
+Do you know what delay I should put. Or better, what I should do to avoid rate limit.
+
+It'll be very helpfull to know your experience on this. Like what did you do to solve this problem
+
+
+
+Async:
+
+Hi,
+
+Im trying to create lot of ads (15,000) using facebook python sdk. 
+But I hit rate limit after creating 11 ads. 
+So I was thinking to use async method to create them. 
+But I dont know if that will solve my problem also I dont know how exactly to implement it. 
+Can you help me by sharing what you did to solve this problem?

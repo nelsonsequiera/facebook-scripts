@@ -1,0 +1,199 @@
+{
+    "id": "23843029496440629",
+    "account_id": "414637205659315",
+    "budget_rebalance_flag": false,
+    "budget_remaining": "0",
+    "buying_type": "AUCTION",
+    "can_create_brand_lift_study": false,
+    "can_use_spend_cap": true,
+    "configured_status": "PAUSED",
+    "created_time": "2018-08-01T13:22:58+0530",
+    "effective_status": "PAUSED",
+    "name": "Campaign - Canvas ad",
+    "objective": "BRAND_AWARENESS",
+    "source_campaign_id": "0",
+    "start_time": "2018-08-01T13:23:01+0530",
+    "status": "PAUSED",
+    "updated_time": "2018-08-01T13:28:10+0530",
+    "adsets": [
+    {
+        "id": "23843029496460629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "8846",
+        "campaign":
+        {
+            "id": "23843029496440629"
+        },
+        "campaign_id": "23843029496440629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T13:23:00+0530",
+        "daily_budget": "20000",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "0",
+        "lifetime_imps": 0,
+        "name": "Adset - Canvas Ad",
+        "optimization_goal": "AD_RECALL_LIFT",
+        "pacing_type": [
+            "standard"
+        ],
+        "recurring_budget_semantics": true,
+        "rtb_flag": false,
+        "source_adset_id": "0",
+        "start_time": "2018-08-01T13:23:01+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 65,
+            "age_min": 18,
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "publisher_platforms": [
+                "facebook",
+                "instagram",
+                "audience_network",
+                "messenger"
+            ],
+            "facebook_positions": [
+                "feed",
+                "suggested_video",
+                "instant_article",
+                "instream_video",
+                "marketplace"
+            ],
+            "instagram_positions": [
+                "stream",
+                "story"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ],
+            "messenger_positions": [
+                "messenger_home"
+            ],
+            "audience_network_positions": [
+                "instream_video"
+            ]
+        },
+        "updated_time": "2018-08-01T13:28:12+0530",
+        "use_new_app_click": false,
+        "ads": [
+        {
+            "id": "23843029496480629",
+            "account_id": "414637205659315",
+            "adset":
+            {
+                "id": "23843029496460629"
+            },
+            "adset_id": "23843029496460629",
+            "bid_type": "ABSOLUTE_OCPM",
+            "campaign":
+            {
+                "id": "23843029496440629"
+            },
+            "campaign_id": "23843029496440629",
+            "configured_status": "ACTIVE",
+            "created_time": "2018-08-01T13:23:02+0530",
+            "creative":
+            {
+                "id": "23843029496730629"
+            },
+            "effective_status": "CAMPAIGN_PAUSED",
+            "last_updated_by_app_id": "119211728144504",
+            "name": "Default Name - Brand awareness",
+            "source_ad_id": "0",
+            "status": "ACTIVE",
+            "tracking_specs": [
+            {
+                "action.type": [
+                    "offsite_conversion"
+                ],
+                "fb_pixel": [
+                    "1857779837565929"
+                ]
+            },
+            {
+                "action.type": [
+                    "dwell"
+                ],
+                "creative": [
+                    "23843029496730629"
+                ]
+            },
+            {
+                "action.type": [
+                    "link_click"
+                ],
+                "post": [
+                    "247027216133161"
+                ],
+                "post.wall": [
+                    "238251770344039"
+                ]
+            },
+            {
+                "action.type": [
+                    "post_engagement"
+                ],
+                "page": [
+                    "238251770344039"
+                ],
+                "post": [
+                    "247027216133161"
+                ]
+            },
+            {
+                "action.type": [
+                    "attention_event"
+                ],
+                "creative": [
+                    "23843029496730629"
+                ]
+            }],
+            "updated_time": "2018-08-01T13:27:26+0530",
+            "creative": [
+            {
+                "id": "23843029496730629",
+                "account_id": "414637205659315",
+                "body": "Book",
+                "effective_object_story_id": "238251770344039_247027216133161",
+                "image_hash": "398eb1122e825c6507403ff2cb29792f",
+                "image_url": "https://scontent.xx.fbcdn.net/v/t45.1600-4/37877065_23843028277340629_3161471279932899328_n.png?_nc_cat=0&oh=fcfdb50ac624ff85c9d3b4dc8de4cf6d&oe=5BD3072C",
+                "instagram_actor_id": "1550598221723868",
+                "name": "  2018-08-01-f217fdcb3c9e47fcd842cab5fdb903ba",
+                "object_story_spec":
+                {
+                    "page_id": "238251770344039",
+                    "instagram_actor_id": "1550598221723868",
+                    "link_data":
+                    {
+                        "link": "https://fb.com/canvas_doc/219178082114484",
+                        "message": "Book"
+                    }
+                },
+                "object_type": "SHARE",
+                "status": "ACTIVE",
+                "thumbnail_url": "https://external.xx.fbcdn.net/safe_image.php?d=AQBA0AAxW8sG5I_X&w=64&h=64&url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIlxeFaVMM2-mpar26BTx8fykRIZVks_QCO4yADYWtsjZy7iE19JnzWmgyLk6kiGGxVZGOXJ2VlvS5hOwynFZO1K5EUbMmN4lz3MPe9fI5k1XurwO0sgTHZjxkiEy74lWKWoM74edD6Z6ZYRhiFmLZE&cfs=1&_nc_hash=AQB9iJKm08vbp6mK",
+                "title": " ",
+                "use_page_actor_override": false
+            }]
+        }]
+    }]
+}

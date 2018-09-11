@@ -1,0 +1,105 @@
+params = {
+        'date_preset': Ad.DatePreset.lifetime,
+    }
+fields = ["account_currency","account_id","account_name","action_values","actions","ad_id","ad_name","adset_id","adset_name","buying_type","call_to_action_clicks","campaign_id","campaign_name","canvas_avg_view_percent","canvas_avg_view_time","clicks","cost_per_10_sec_video_view","cost_per_action_type","cost_per_estimated_ad_recallers","cost_per_inline_link_click","cost_per_inline_post_engagement","cost_per_outbound_click","cost_per_total_action","cost_per_unique_action_type","cost_per_unique_click","cost_per_unique_inline_link_click","cost_per_unique_outbound_click","cpc","cpm","cpp","ctr","date_start","date_stop","estimated_ad_recall_rate","estimated_ad_recallers","frequency","impressions","inline_link_click_ctr","inline_link_clicks","inline_post_engagement","mobile_app_purchase_roas","objective","outbound_clicks","outbound_clicks_ctr","place_page_name","reach","relevance_score","social_clicks","social_impressions","social_reach","social_spend","spend","total_action_value","total_actions","total_unique_actions","unique_actions","unique_clicks","unique_ctr","unique_inline_link_click_ctr","unique_inline_link_clicks","unique_link_clicks_ctr","unique_outbound_clicks","unique_outbound_clicks_ctr","unique_social_clicks","video_10_sec_watched_actions","video_30_sec_watched_actions","video_avg_percent_watched_actions","video_avg_time_watched_actions","video_p100_watched_actions","video_p25_watched_actions","video_p50_watched_actions","video_p75_watched_actions","video_p95_watched_actions","website_ctr","website_purchase_roas"]
+
+
+# ALCHEMY
+app_id = '541708792876870'
+app_secret = '15fd6df6a315d25aa4a22a29158a2d6d'
+access_token = 'EAAHsrmgrz0YBAA9W2ffy3UsB0UgAzkdPaZANA7VYMNHVKZCD80y4CVSGEB33ZCfn367SNB4ogJdLmwwbZAkcyZCpqyubToEUp3QnsZA7Av9rLfhrVFnQqgO9uL6EJQPbTDZA58oqBFjZB2oqVSsECKQP7KnQzlZAdJ1QU4yJVgePz4ZCfK7gvHw5Ay'
+FacebookAdsApi.set_default_api(FacebookAdsApi(FacebookSession(app_id, app_secret, access_token)))
+ad_id = '23842954292790629'
+ad = Ad(ad_id)
+insights = ad.get_insights(fields=fields, params=params)
+insights
+
+# GALE 
+app_id = '1806038269710766'
+app_secret = '80ce6c5f2828157fee3538a531bd0f62'
+access_token = 'EAAZAqlQ2EUa4BANZAFNhP6RJ4E5fgE4PRUNLm6O7DLpkd7bn5ECorWLTQZAajqZCZBhs3r5CEa7HZAOSsrEns9OvgCOqoi9Byg5r4ZCBuFHX2oralO1Y9faSMnmggrv2UXZBzOg4a4XWEZCBhgucq6tEqWKsI8ML0d7bJ8egoRqrCYknWH5ar78g1'
+FacebookAdsApi.set_default_api(FacebookAdsApi(FacebookSession(app_id, app_secret, access_token)))
+ad_id = '23842858286980096'
+ad = Ad(ad_id)
+insights = ad.get_insights(fields=fields, params=params)
+insights
+
+
+"access_token": [
+                    "EAAHsrmgrz0YBAAPQZBYkzBjMDKcK13gUfLZBt4BHCfHgxgZBiT2UawDRU34Sjr3F8vcN68BaSQlJqeqejXsZBTHWpvJ7QAtlq6ibSLA3EcJWc5Tk0fridj6eBWUcflQyGru9ZAn7iThZAkCazZBdEb7NsuyYerVtn77VHCoiaQvAI5uRhCHYkFN",
+                    "EAAHsrmgrz0YBAFi5yNZCDNSAY4dZBuZBQG8GL9SHFDz4eZCUQbM8aO65aFSCJdaQxzJczZBGMGcOknWCHp0vwA6MSZC0XBUMwptkF2ZBtqWZBsFhdxp03fZBn3XmaAPKWF9dKa24oL31Pk7ZCxt3kZCgR41GskGKkv4oaJPJMhV3Bzf2mDZC5mqhzlC9",
+                    "EAAHsrmgrz0YBABLZCmAWAYj7bDd3ypOAdM5CHB6joOrMyjWpHGDsc8vRZC2lkEgMuZBls2ZB5WTR08AjMGJMDxf0e2xG8YiFrTFTSFvkvtZBtQoIsJQbzZAI4TMjsGqkKh3apfzg87GkFlHDvJLcXBuEL284JRkZBfw9EjrK37VaQol7ZAxvjrZAa",
+                    "EAAHsrmgrz0YBAE6oh6w1Deee5PqHDfCS56jymaIRjzMS26ojqdM4LbkdMDqnpsuZBPad5zn42qdhFIPC4DuY3NF8rUEij9m6Ta7BGNDNzuOACb42ZAvM39vVdGd6TnuKG0WqoZCZBzmrADEi8iRmAgaLVNdU2R7SsK6lUmDXDKpFGan5viQZB"
+                ]
+
+
+
+new_access_tokens = {
+    "Alchemy SystemUser 1": "EAAHsrmgrz0YBAJg8YqkhGJGygd6EtTuqMyNYHtU1167JaOBGhGVUi4zmEbIHaAGCMpZC9WDDC9eOCqjHPAynQ0cyAwPT0Wndu6T5MQJJzxup5mPnLZBqqlQVFoNtA8q5YDkdnZCFJ2cVyMFNlOzZBoPfJENilDcWmgAzTPnwGkDvP9Qp7fb2"
+}
+
+
+
+{
+    "app_id": "541708792876870",
+    "page_id": "2113012528968688",
+    "app_secret": "15fd6df6a315d25aa4a22a29158a2d6d",
+    "business_id": "354617308327972",
+    "access_token": [
+    "EAAHsrmgrz0YBAJpeJmtEWcwXbh6XrRw9OffbG677eAanGiEiueL2mbLsOJSGMZB1G65Yw53oGctc2yqZC08GZBZBIAw8cRfkhZB96cnycoEBfnjS4lslC2yL4mdPnZBGcURxd5VUnKNiAOHXdxyEsS840nBhjVuc3LakIB7NzdeyHW3NHKxzT2",
+    "EAAHsrmgrz0YBAOxTYtMXCz6ZAacKZB26IIBFBA322lxgpKIqlZC2UKbrb4ZBBKkVxkrRdShN7eJZA5RRNHZCPKoP0a6F6RCUPn2xZBex6vm78PMTXnRZC6IS92uOcu1yFoZBBguzbw9x67APdxQTOGPMKAy4s9HGbNsDIiRytpy4yd05UKf2JiKWy",
+    "EAAHsrmgrz0YBAFY2wNnf0xU2jGbvh842eD1DZCFpt676hCFQmgzxZAUvaCmIPRKhctwCgLO8YdfhZBl2jZA61afAdaszm2LdhSnzZCo6kIkpyECaaFMkyMP3CbRZBlsDqUzGFbn5OyV0BqzaUu9Ym6VUrE9NhaBEPn2Yyg2y9K0njVMqxbfPlI",
+    "EAAHsrmgrz0YBAA7UBeYM2fZAhQj0UAHKtP53rUjRqxaN1SBJ8lYbQaUh4BuLB0tetEUy8mqu8IPBzZARJ6YjTA90eCKpwsmSqz7H81vzRaZBpdCkVF8jkY4TCVypwpx3CmMrUsvpwrs0uygDfZCueZBA4j8ZBiX5SOfs0713hyCeCJORnX5z5s",
+    "EAAHsrmgrz0YBAFSZAig4tVQ7ioGvxAKiQPxxX8FlA1BPLjyefgoTZB24PTrXVX2S7COixngon8NrZCEB8ZAZBZBxalcmjzEsbQ66YvaWpOEiWRriEJkCZAvArc3s5v2amKk0BAMXb2P6RZCJaIeyjjZAHLq182NXswUv1Vh3YxwZAMq82m7mVQ3Iaj"
+],
+    "ad_account_id": "act_414637205659315",
+    "app_access_token": "3760860596450d71347bfd95be9006b2",
+    "instagram_page_id": "1550598221723868"
+}
+
+{
+    "pixel_id": "217049922179026",
+    "objective":
+    {
+        "reach":
+        {
+            "billing_event": "IMPRESSIONS",
+            "frequency_period": 1,
+            "optimization_goal": "REACH",
+            "is_average_price_pacing": false,
+            "frequency_control_specs_event": "IMPRESSIONS"
+        },
+        "traffic":
+        {
+            "pacing_type": "standard",
+            "billing_event": "IMPRESSIONS",
+            "optimization_goal": "LINK_CLICKS",
+            "is_average_price_pacing": false,
+            "frequency_control_specs_event": "IMPRESSIONS"
+        },
+        "awareness":
+        {
+            "pacing_type": "standard",
+            "billing_event": "IMPRESSIONS",
+            "optimization_goal": "AD_RECALL_LIFT",
+            "is_average_price_pacing": false,
+            "frequency_control_specs_event": "IMPRESSIONS"
+        },
+        "conversions":
+        {
+            "billing_event": "IMPRESSIONS",
+            "optimization_goal": "OFFSITE_CONVERSIONS",
+            "is_average_price_pacing": false,
+            "frequency_control_specs_event": "IMPRESSIONS"
+        }
+    },
+    "api_version": "v3.0",
+    "buying_type": "AUCTION",
+    "currency_offset": 100,
+    "pixel_event_type": "CONTENT_VIEW",
+    "can_use_spend_cap": true,
+    "pause_all_campaign": true,
+    "webhook_verify_token": "fb9rxPYeQNolLOcSARooIZz",
+    "budget_rebalance_flag": false,
+    "can_create_brand_lift_study": false
+}

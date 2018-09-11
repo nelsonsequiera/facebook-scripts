@@ -1,0 +1,312 @@
+{
+    "id": "23843029441120629",
+    "account_id": "414637205659315",
+    "budget_rebalance_flag": false,
+    "budget_remaining": "0",
+    "buying_type": "AUCTION",
+    "can_create_brand_lift_study": false,
+    "can_use_spend_cap": true,
+    "configured_status": "PAUSED",
+    "created_time": "2018-08-01T12:16:23+0530",
+    "effective_status": "PAUSED",
+    "name": "Campaign Reach - DND",
+    "objective": "REACH",
+    "source_campaign_id": "0",
+    "start_time": "2018-08-31T12:11:59+0530",
+    "status": "PAUSED",
+    "stop_time": "2018-09-29T12:11:59+0530",
+    "updated_time": "2018-08-01T12:19:32+0530",
+    "adsets": [
+    {
+        "id": "23843029441140629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "1400000",
+        "campaign":
+        {
+            "id": "23843029441120629"
+        },
+        "campaign_id": "23843029441120629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:16:24+0530",
+        "daily_budget": "0",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "end_time": "2018-09-29T12:11:59+0530",
+        "frequency_control_specs": [
+        {
+            "event": "IMPRESSIONS",
+            "interval_days": 7,
+            "max_frequency": 1
+        }],
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "1400000",
+        "lifetime_imps": 0,
+        "name": "Adset Reach - optimization - REACH",
+        "optimization_goal": "REACH",
+        "pacing_type": [
+            "standard"
+        ],
+        "promoted_object":
+        {
+            "page_id": "238251770344039"
+        },
+        "recurring_budget_semantics": false,
+        "rtb_flag": false,
+        "source_adset_id": "0",
+        "start_time": "2018-08-31T12:11:59+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 57,
+            "age_min": 18,
+            "custom_audiences": [
+            {
+                "id": "23843025786360629",
+                "name": "facebook 2 nelson - Social - Adset 1-audience"
+            }],
+            "flexible_spec": [
+            {
+                "interests": [
+                {
+                    "id": "6002988344794",
+                    "name": "Cricket"
+                }]
+            }],
+            "genders": [
+                1
+            ],
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "locales": [
+                75
+            ],
+            "publisher_platforms": [
+                "facebook"
+            ],
+            "facebook_positions": [
+                "feed",
+                "instant_article",
+                "instream_video",
+                "marketplace"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ]
+        },
+        "updated_time": "2018-08-01T12:16:24+0530",
+        "use_new_app_click": false
+    },
+    {
+        "id": "23843029441600629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "1400000",
+        "campaign":
+        {
+            "id": "23843029441120629"
+        },
+        "campaign_id": "23843029441120629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:17:55+0530",
+        "daily_budget": "0",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "end_time": "2018-09-29T12:11:59+0530",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "1400000",
+        "lifetime_imps": 0,
+        "name": "Adset Reach - optimization - IMPRESSIONS",
+        "optimization_goal": "IMPRESSIONS",
+        "pacing_type": [
+            "standard"
+        ],
+        "promoted_object":
+        {
+            "page_id": "238251770344039"
+        },
+        "recurring_budget_semantics": false,
+        "rtb_flag": false,
+        "source_adset":
+        {
+            "id": "23843029441140629"
+        },
+        "source_adset_id": "23843029441140629",
+        "start_time": "2018-08-31T12:11:59+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 57,
+            "age_min": 18,
+            "custom_audiences": [
+            {
+                "id": "23843025786360629",
+                "name": "facebook 2 nelson - Social - Adset 1-audience"
+            }],
+            "flexible_spec": [
+            {
+                "interests": [
+                {
+                    "id": "6002988344794",
+                    "name": "Cricket"
+                }]
+            }],
+            "genders": [
+                1
+            ],
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "locales": [
+                75
+            ],
+            "publisher_platforms": [
+                "facebook"
+            ],
+            "facebook_positions": [
+                "feed",
+                "instant_article",
+                "instream_video",
+                "marketplace"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ]
+        },
+        "updated_time": "2018-08-01T12:17:55+0530",
+        "use_new_app_click": false
+    },
+    {
+        "id": "23843029441580629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_amount": 20000,
+        "bid_info":
+        {
+            "REACH": 20000
+        },
+        "bid_strategy": "LOWEST_COST_WITH_BID_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "1400000",
+        "campaign":
+        {
+            "id": "23843029441120629"
+        },
+        "campaign_id": "23843029441120629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:20:21+0530",
+        "daily_budget": "0",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "end_time": "2018-09-29T12:11:59+0530",
+        "frequency_control_specs": [
+        {
+            "event": "IMPRESSIONS",
+            "interval_days": 7,
+            "max_frequency": 1
+        }],
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "1400000",
+        "lifetime_imps": 0,
+        "name": "Adset Reach - bid cap - TRUE",
+        "optimization_goal": "REACH",
+        "pacing_type": [
+            "standard"
+        ],
+        "promoted_object":
+        {
+            "page_id": "238251770344039"
+        },
+        "recurring_budget_semantics": false,
+        "rtb_flag": false,
+        "source_adset":
+        {
+            "id": "23843029441140629"
+        },
+        "source_adset_id": "23843029441140629",
+        "start_time": "2018-08-31T12:11:59+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 57,
+            "age_min": 18,
+            "custom_audiences": [
+            {
+                "id": "23843025786360629",
+                "name": "facebook 2 nelson - Social - Adset 1-audience"
+            }],
+            "flexible_spec": [
+            {
+                "interests": [
+                {
+                    "id": "6002988344794",
+                    "name": "Cricket"
+                }]
+            }],
+            "genders": [
+                1
+            ],
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "locales": [
+                75
+            ],
+            "publisher_platforms": [
+                "facebook"
+            ],
+            "facebook_positions": [
+                "feed",
+                "instant_article",
+                "instream_video",
+                "marketplace"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ]
+        },
+        "updated_time": "2018-08-01T12:20:21+0530",
+        "use_new_app_click": false
+    }]
+}

@@ -1,0 +1,21 @@
+- cep:
+    - create campaing
+    - create adset
+    - create ad
+    - create creative
+    - create audience
+
+
+- report:
+    - get adset
+    - get ad
+
+
+- status:
+    - get ad
+
+- app:
+    - location
+    - interest
+    - pixel
+    - audience

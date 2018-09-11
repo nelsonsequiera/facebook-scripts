@@ -1,0 +1,440 @@
+{
+    "id": "23843029459260629",
+    "account_id": "414637205659315",
+    "budget_rebalance_flag": false,
+    "budget_remaining": "0",
+    "buying_type": "AUCTION",
+    "can_create_brand_lift_study": false,
+    "can_use_spend_cap": true,
+    "configured_status": "PAUSED",
+    "created_time": "2018-08-01T12:39:59+0530",
+    "effective_status": "PAUSED",
+    "name": "Campaign - Traffic - DND",
+    "objective": "LINK_CLICKS",
+    "source_campaign_id": "0",
+    "start_time": "2018-08-01T12:40:02+0530",
+    "status": "PAUSED",
+    "updated_time": "2018-08-01T12:40:24+0530",
+    "adsets": [
+    { // Adset - Traffic - Optimization - link clicks
+        "id": "23843029459280629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "37775",
+        "campaign":
+        {
+            "id": "23843029459260629"
+        },
+        "campaign_id": "23843029459260629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:40:01+0530",
+        "daily_budget": "80000",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "0",
+        "lifetime_imps": 0,
+        "name": "Adset - Traffic - Optimization - link clicks",
+        "optimization_goal": "LINK_CLICKS",
+        "pacing_type": [
+            "standard"
+        ],
+        "recurring_budget_semantics": true,
+        "rtb_flag": false,
+        "source_adset_id": "0",
+        "start_time": "2018-08-01T12:40:02+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 65,
+            "age_min": 18,
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "targeting_optimization": "none",
+            "publisher_platforms": [
+                "facebook",
+                "instagram",
+                "audience_network",
+                "messenger"
+            ],
+            "facebook_positions": [
+                "feed",
+                "right_hand_column",
+                "instant_article",
+                "marketplace"
+            ],
+            "instagram_positions": [
+                "stream",
+                "story"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ],
+            "messenger_positions": [
+                "messenger_home"
+            ],
+            "audience_network_positions": [
+                "classic",
+                "rewarded_video"
+            ]
+        },
+        "updated_time": "2018-08-01T12:40:01+0530",
+        "use_new_app_click": false
+    },
+    { // Adset - Optimization - impressions
+        "id": "23843029459860629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "37089",
+        "campaign":
+        {
+            "id": "23843029459260629"
+        },
+        "campaign_id": "23843029459260629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:52:23+0530",
+        "daily_budget": "80000",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "0",
+        "lifetime_imps": 0,
+        "name": "Adset - Optimization - impressions",
+        "optimization_goal": "IMPRESSIONS",
+        "pacing_type": [
+            "standard"
+        ],
+        "recurring_budget_semantics": true,
+        "rtb_flag": false,
+        "source_adset":
+        {
+            "id": "23843029459280629"
+        },
+        "source_adset_id": "23843029459280629",
+        "start_time": "2018-08-01T12:52:23+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 65,
+            "age_min": 18,
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "targeting_optimization": "none",
+            "publisher_platforms": [
+                "facebook",
+                "instagram",
+                "audience_network",
+                "messenger"
+            ],
+            "facebook_positions": [
+                "feed",
+                "right_hand_column",
+                "instant_article",
+                "marketplace"
+            ],
+            "instagram_positions": [
+                "stream",
+                "story"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ],
+            "messenger_positions": [
+                "messenger_home"
+            ],
+            "audience_network_positions": [
+                "classic",
+                "rewarded_video"
+            ]
+        },
+        "updated_time": "2018-08-01T12:52:23+0530",
+        "use_new_app_click": false
+    },
+    { // Adset - Optimization - reach
+        "id": "23843029464950629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "37261",
+        "campaign":
+        {
+            "id": "23843029459260629"
+        },
+        "campaign_id": "23843029459260629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:49:18+0530",
+        "daily_budget": "80000",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "0",
+        "lifetime_imps": 0,
+        "name": "Adset - Optimization - reach",
+        "optimization_goal": "REACH",
+        "pacing_type": [
+            "standard"
+        ],
+        "recurring_budget_semantics": true,
+        "rtb_flag": false,
+        "source_adset":
+        {
+            "id": "23843029459860629"
+        },
+        "source_adset_id": "23843029459860629",
+        "start_time": "2018-08-01T12:49:18+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 65,
+            "age_min": 18,
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "targeting_optimization": "none",
+            "publisher_platforms": [
+                "facebook",
+                "instagram",
+                "audience_network",
+                "messenger"
+            ],
+            "facebook_positions": [
+                "feed",
+                "right_hand_column",
+                "instant_article",
+                "marketplace"
+            ],
+            "instagram_positions": [
+                "stream",
+                "story"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ],
+            "messenger_positions": [
+                "messenger_home"
+            ],
+            "audience_network_positions": [
+                "classic",
+                "rewarded_video"
+            ]
+        },
+        "updated_time": "2018-08-01T12:49:18+0530",
+        "use_new_app_click": false
+    },
+    { // Adset - optimization - landing page views - bid startegy - LOWEST cost
+        "id": "23843029459840629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "37064",
+        "campaign":
+        {
+            "id": "23843029459260629"
+        },
+        "campaign_id": "23843029459260629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:52:49+0530",
+        "daily_budget": "80000",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "0",
+        "lifetime_imps": 0,
+        "name": "Adset - optimization - landing page views - bid startegy - LOWEST cost",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "pacing_type": [
+            "standard"
+        ],
+        "recurring_budget_semantics": true,
+        "rtb_flag": false,
+        "source_adset":
+        {
+            "id": "23843029459280629"
+        },
+        "source_adset_id": "23843029459280629",
+        "start_time": "2018-08-01T12:52:50+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 65,
+            "age_min": 18,
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "targeting_optimization": "none",
+            "publisher_platforms": [
+                "facebook",
+                "instagram",
+                "audience_network",
+                "messenger"
+            ],
+            "facebook_positions": [
+                "feed",
+                "right_hand_column",
+                "instant_article",
+                "marketplace"
+            ],
+            "instagram_positions": [
+                "stream",
+                "story"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ],
+            "messenger_positions": [
+                "messenger_home"
+            ],
+            "audience_network_positions": [
+                "classic",
+                "rewarded_video"
+            ]
+        },
+        "updated_time": "2018-08-01T12:52:49+0530",
+        "use_new_app_click": false
+    },
+    { // Adset - optimization - landing page views - bid startegy - TARGET cost
+        "id": "23843029459830629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_amount": 20000,
+        "bid_info":
+        {
+            "ACTIONS": 20000
+        },
+        "bid_strategy": "TARGET_COST",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "37065",
+        "campaign":
+        {
+            "id": "23843029459260629"
+        },
+        "campaign_id": "23843029459260629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T12:52:49+0530",
+        "daily_budget": "80000",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "0",
+        "lifetime_imps": 0,
+        "name": "Adset - optimization - landing page views - bid startegy - TARGET cost",
+        "optimization_goal": "LANDING_PAGE_VIEWS",
+        "pacing_type": [
+            "standard"
+        ],
+        "recurring_budget_semantics": true,
+        "rtb_flag": false,
+        "source_adset":
+        {
+            "id": "23843029459280629"
+        },
+        "source_adset_id": "23843029459280629",
+        "start_time": "2018-08-01T12:52:49+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 65,
+            "age_min": 18,
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "targeting_optimization": "none",
+            "publisher_platforms": [
+                "facebook",
+                "instagram",
+                "audience_network",
+                "messenger"
+            ],
+            "facebook_positions": [
+                "feed",
+                "right_hand_column",
+                "instant_article",
+                "marketplace"
+            ],
+            "instagram_positions": [
+                "stream",
+                "story"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ],
+            "messenger_positions": [
+                "messenger_home"
+            ],
+            "audience_network_positions": [
+                "classic",
+                "rewarded_video"
+            ]
+        },
+        "updated_time": "2018-08-01T12:52:49+0530",
+        "use_new_app_click": false
+    }]
+}

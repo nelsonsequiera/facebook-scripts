@@ -1,0 +1,216 @@
+{
+    "id": "23843029418260629",
+    "account_id": "414637205659315",
+    "budget_rebalance_flag": false,
+    "budget_remaining": "0",
+    "buying_type": "AUCTION",
+    "can_create_brand_lift_study": false,
+    "can_use_spend_cap": true,
+    "configured_status": "PAUSED",
+    "created_time": "2018-08-01T11:41:08+0530",
+    "effective_status": "PAUSED",
+    "name": "Campaign Brand awareness",
+    "objective": "BRAND_AWARENESS",
+    "source_campaign_id": "0",
+    "start_time": "2018-09-01T11:35:56+0530",
+    "status": "PAUSED",
+    "stop_time": "2018-09-29T11:35:56+0530",
+    "updated_time": "2018-08-01T11:41:32+0530",
+    "adset": [
+    {
+        "id": "23843029418300629",
+        "account_id": "414637205659315",
+        "attribution_spec": [
+        {
+            "event_type": "CLICK_THROUGH",
+            "window_days": 1
+        }],
+        "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+        "billing_event": "IMPRESSIONS",
+        "budget_remaining": "1400000",
+        "campaign":
+        {
+            "id": "23843029418260629"
+        },
+        "campaign_id": "23843029418260629",
+        "configured_status": "ACTIVE",
+        "created_time": "2018-08-01T11:41:09+0530",
+        "daily_budget": "0",
+        "destination_type": "UNDEFINED",
+        "effective_status": "CAMPAIGN_PAUSED",
+        "end_time": "2018-09-29T11:35:56+0530",
+        "is_dynamic_creative_optimization": false,
+        "lifetime_budget": "1400000",
+        "lifetime_imps": 0,
+        "name": "Adset - brand awareness",
+        "optimization_goal": "AD_RECALL_LIFT",
+        "pacing_type": [
+            "standard"
+        ],
+        "recurring_budget_semantics": false,
+        "rtb_flag": false,
+        "source_adset_id": "0",
+        "start_time": "2018-09-01T11:35:56+0530",
+        "status": "ACTIVE",
+        "targeting":
+        {
+            "age_max": 16,
+            "age_min": 16,
+            "custom_audiences": [
+            {
+                "id": "23843025786360629",
+                "name": "facebook 2 nelson - Social - Adset 1-audience"
+            }],
+            "flexible_spec": [
+            {
+                "interests": [
+                {
+                    "id": "6003020834693",
+                    "name": "Music"
+                }]
+            }],
+            "genders": [
+                1
+            ],
+            "geo_locations":
+            {
+                "countries": [
+                    "IN"
+                ],
+                "location_types": [
+                    "home",
+                    "recent"
+                ]
+            },
+            "locales": [
+                24
+            ],
+            "publisher_platforms": [
+                "facebook"
+            ],
+            "facebook_positions": [
+                "feed",
+                "suggested_video",
+                "instant_article",
+                "instream_video",
+                "marketplace"
+            ],
+            "device_platforms": [
+                "mobile",
+                "desktop"
+            ]
+        },
+        "updated_time": "2018-08-01T11:41:09+0530",
+        "use_new_app_click": false,
+        "ad":
+        {
+            "id": "23843029418330629",
+            "account_id": "414637205659315",
+            "adset":
+            {
+                "id": "23843029418300629"
+            },
+            "adset_id": "23843029418300629",
+            "bid_type": "ABSOLUTE_OCPM",
+            "campaign":
+            {
+                "id": "23843029418260629"
+            },
+            "campaign_id": "23843029418260629",
+            "configured_status": "ACTIVE",
+            "created_time": "2018-08-01T11:41:10+0530",
+            "creative":
+            {
+                "id": "23843029418530629"
+            },
+            "effective_status": "CAMPAIGN_PAUSED",
+            "last_updated_by_app_id": "119211728144504",
+            "name": "Default Name - Brand awareness - Image 1",
+            "source_ad_id": "0",
+            "status": "ACTIVE",
+            "tracking_specs": [
+            {
+                "action.type": [
+                    "offsite_conversion"
+                ],
+                "fb_pixel": [
+                    "1857779837565929"
+                ]
+            },
+            {
+                "action.type": [
+                    "post_engagement"
+                ],
+                "page": [
+                    "238251770344039"
+                ],
+                "post": [
+                    "246933919475824"
+                ]
+            },
+            {
+                "action.type": [
+                    "dwell"
+                ],
+                "creative": [
+                    "23843029418530629"
+                ]
+            },
+            {
+                "action.type": [
+                    "link_click"
+                ],
+                "post": [
+                    "246933919475824"
+                ],
+                "post.wall": [
+                    "238251770344039"
+                ]
+            },
+            {
+                "action.type": [
+                    "attention_event"
+                ],
+                "creative": [
+                    "23843029418530629"
+                ]
+            }],
+            "updated_time": "2018-08-01T11:44:25+0530",
+            "creative":
+            {
+                "id": "23843029418530629",
+                "account_id": "414637205659315",
+                "body": "Book",
+                "call_to_action_type": "LEARN_MORE",
+                "effective_object_story_id": "238251770344039_246933919475824",
+                "image_hash": "9f1c8cf84866acad531b61f35a12bf02",
+                "image_url": "https://scontent.xx.fbcdn.net/v/t45.1600-4/34103456_23842965792780629_1965531670652125184_n.png?_nc_cat=0&oh=56052014a4f1240b74a4c44fc0d2643f&oe=5BD0DB57",
+                "name": "headline 2018-07-31-be8883cb72b064c4fd6458f30b0fe260",
+                "object_story_spec":
+                {
+                    "page_id": "238251770344039",
+                    "link_data":
+                    {
+                        "link": "https://gale.agency/",
+                        "message": "Book",
+                        "name": "headline",
+                        "caption": "https://gale.agency/displaylink",
+                        "attachment_style": "link",
+                        "description": "news feed link description",
+                        "image_hash": "9f1c8cf84866acad531b61f35a12bf02",
+                        "call_to_action":
+                        {
+                            "type": "LEARN_MORE"
+                        }
+                    }
+                },
+                "object_type": "SHARE",
+                "status": "ACTIVE",
+                "thumbnail_url": "https://external.xx.fbcdn.net/safe_image.php?d=AQDZ-GCKzMZGL7uQ&w=64&h=64&url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJI50Ur6cYbDa_k3KLXgZ494tZ5aZHREkCukIEn_Y5AFOEAL2jPz6_E-lHr_5Qk5E2GBAYriPoLBr4doPOIbabVzkjAvAi7cesHuiRHhFxalO34mqp9C-AOpTxzf-QGZnl9pn1p3M3Xorf1EN95WS2b&cfs=1&_nc_hash=AQCQSB6ZtsdSSIHH",
+                "title": "headline",
+                "use_page_actor_override": false
+            }
+
+        }
+    }]
+}

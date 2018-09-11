@@ -1,0 +1,39 @@
+facebook ratelimit analysis report
+
+
+-- get insights
+run 1:
+ Time between each request: 1
+ ----------------------------------------------------------------------------------------------------
+ time taken before user-request-limit: time taken before limit: 0:02:41.515979
+ number of requests succeeded: 92
+ error that occured: {'error': {'message': '(#17) User request limit reached', 'type': 'OAuthException', 'is_transient': True, 'code': 17, 'fbtrace_id': 'GzGs/c6+LPF'}}
+ ----------------------------------------------------------------------------------------------------
+
+
+run 2: 
+ Time between each request: 0.5
+----------------------------------------------------------------------------------------------------
+ time taken before user-request-limit: time taken before limit: 0:01:29.805744
+ number of requests succeeded: 71
+ error that occured: {'error': {'message': '(#17) User request limit reached', 'type': 'OAuthException', 'is_transient': True, 'code': 17, 'fbtrace_id': 'HYgos+5l2lD'}}
+ ----------------------------------------------------------------------------------------------------
+
+
+
+-- create ads
+ run 3:
+  Time between each request: 0.3
+  ----------------------------------------------------------------------------------------------------
+ time taken before error: time taken before limit: 0:00:32.236223
+ number of requests succeeded: 11
+ error that occured: {'error': {'message': 'Calls to this api have exceeded the rate limit.', 'type': 'OAuthException', 'code': 613, 'error_subcode': 1487742, 'is_transient': True, 'error_user_title': 'There have been too many calls from this ad-account. Wait a bit and try again.', 'error_user_msg': 'There have been too many calls from this ad-account. Please wait a bit and try again.', 'fbtrace_id': 'HaXhRbROnro'}}
+----------------------------------------------------------------------------------------------------
+
+run 4: 
+ Time between each request: 1
+ ----------------------------------------------------------------------------------------------------
+ time taken before error: time taken before limit: 0:00:28.367302
+ number of requests succeeded: 10
+ error that occured: {'error': {'message': 'Calls to this api have exceeded the rate limit.', 'type': 'OAuthException', 'code': 613, 'error_subcode': 1487742, 'is_transient': True, 'error_user_title': 'There have been too many calls from this ad-account. Wait a bit and try again.', 'error_user_msg': 'There have been too many calls from this ad-account. Please wait a bit and try again.', 'fbtrace_id': 'E+zgoGbvnpJ'}}
+----------------------------------------------------------------------------------------------------
